@@ -1,0 +1,12 @@
+[
+    { "name": "NO", "type": "INT64", "mode": "NULLABLE" },
+    { "name": "売上日", "type": "STRING", "mode": "NULLABLE" },
+    { "name": "店舗", "type": "STRING", "mode": "NULLABLE" },
+    { "name": "科目", "type": "INT64", "mode": "NULLABLE" },
+    { "name": "補助科目", "type": "INT64", "mode": "NULLABLE" },
+    { "name": "数量", "type": "INT64", "mode": "NULLABLE" },
+    { "name": "売上金額", "type": "INT64", "mode": "NULLABLE" },
+    { "name": "消費税額", "type": "INT64", "mode": "NULLABLE" },
+    { "name": "摘要", "type": "STRING", "mode": "NULLABLE" }
+  ]
+  
