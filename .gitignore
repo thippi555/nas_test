@@ -1,0 +1,18 @@
+
+# Terraform 実行ディレクトリ
+.terraform/
+.terraform.lock.hcl
+
+# Terraform state
+*.tfstate
+*.tfstate.backup
+crash.log
+
+# ローカル変数ファイル (環境依存なら)
+*.tfvars
+*.tfvars.json
+
+# IDE 設定ファイル
+.vscode/
+.idea/
+
