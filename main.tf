@@ -18,7 +18,7 @@ resource "google_storage_bucket" "demo" {
   location = "ASIA-NORTHEAST1"
 }
 
-# 関数コードを格納するバケット
+# 関数コードを格納するバケット   kokokoko
 resource "google_storage_bucket" "function_bucket" {
   name     = "function-code-bucket-${random_id.rand.hex}"
   location = var.region
